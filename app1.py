@@ -131,9 +131,9 @@ def main():
     tab0, tab1, tab2, tab3, tab4, tab5 = st.tabs(["Problem Statement", "Overview", "User Profiles", "Channels/Groups", "Messages", "ML Insights"])
 
     with tab0:
-        st.header("Problem Statement")
+        s
         
-        col1, col2 = st.columns([1, 2])
+        col2 = st.columns([1])
      
      
         with col2:
