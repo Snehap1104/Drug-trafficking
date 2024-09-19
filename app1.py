@@ -139,7 +139,7 @@ def main():
         with col2:
             st.markdown(
                 f"""
-                <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px;'>
+                <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px align:center;'>
                 <h3 style='color: #CC6600;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
                 <h4 style='color: #FF8C00;'>Background:</h4>
                 <p>Use of encrypted messaging/social media apps like Telegram, WhatsApp and Instagram for drug trafficking are on the rise. Channels operating on these platforms are blatantly being misused by drug traffickers for offering various narcotic drugs and psychotropic substances for sale.</p>
