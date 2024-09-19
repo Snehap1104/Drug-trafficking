@@ -135,21 +135,7 @@ def main():
         
         col1, col2 = st.columns([1, 2])
      
-        with col1:
-            st.markdown(
-                f"""
-                <div style='background-color: #E6F3FF; padding: 20px; border-radius: 10px;'>
-                <h3 style='color: #0066CC;'>Quick Info</h3>
-                <p><strong>ID:</strong> 1674</p>
-                <p><strong>Organization:</strong> Narcotics Control Bureau (NCB)</p>
-                <p><strong>Department:</strong> Narcotics Control Bureau (NCB)</p>
-                <p><strong>Category:</strong> Software</p>
-                <p><strong>Theme:</strong> Blockchain & Cybersecurity</p>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-        
+     
         with col2:
             st.markdown(
                 f"""
