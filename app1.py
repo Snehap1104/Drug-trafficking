@@ -133,28 +133,28 @@ def main():
     with tab0:
         
         
-    col2 = st.columns([1])[0]
-
-    with col2:
-        st.markdown(
-            f"""
-            <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px; text-align: center;'>
-            <h3 style='color: #CC6600;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
-            <h4 style='color: #FF8C00;'>Background:</h4>
-            <p>Use of encrypted messaging/social media apps like Telegram, WhatsApp and Instagram for drug trafficking are on the rise. Channels operating on these platforms are blatantly being misused by drug traffickers for offering various narcotic drugs and psychotropic substances for sale.</p>
-            <h4 style='color: #FF8C00;'>Key Points:</h4>
-            <ul style="list-style-position: inside; text-align: left;">
-            <li>Drug traffickers create channels and handles to offer drugs for sale to subscribers.</li>
-            <li>Customized Telegram bots are used by some traffickers to sell drugs.</li>
-            <li>Majority of drugs offered are dangerous synthetic drugs like MDMA, LSD, Mephedrone etc.</li>
-            <li>These apps are also used for drug-related communication.</li>
-            </ul>
-            <h4 style='color: #FF8C00;'>Expected Solution:</h4>
-            <p>Development of a software solution to identify live channels/bots/handles offering drugs for sale in India, focusing on triangulating identifiable parameters like IP address, mobile number, email id etc. of the users behind these channels.</p>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+        col2 = st.columns([1])[0]
+    
+        with col2:
+            st.markdown(
+                f"""
+                <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px; text-align: center;'>
+                <h3 style='color: #CC6600;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
+                <h4 style='color: #FF8C00;'>Background:</h4>
+                <p>Use of encrypted messaging/social media apps like Telegram, WhatsApp and Instagram for drug trafficking are on the rise. Channels operating on these platforms are blatantly being misused by drug traffickers for offering various narcotic drugs and psychotropic substances for sale.</p>
+                <h4 style='color: #FF8C00;'>Key Points:</h4>
+                <ul style="list-style-position: inside; text-align: left;">
+                <li>Drug traffickers create channels and handles to offer drugs for sale to subscribers.</li>
+                <li>Customized Telegram bots are used by some traffickers to sell drugs.</li>
+                <li>Majority of drugs offered are dangerous synthetic drugs like MDMA, LSD, Mephedrone etc.</li>
+                <li>These apps are also used for drug-related communication.</li>
+                </ul>
+                <h4 style='color: #FF8C00;'>Expected Solution:</h4>
+                <p>Development of a software solution to identify live channels/bots/handles offering drugs for sale in India, focusing on triangulating identifiable parameters like IP address, mobile number, email id etc. of the users behind these channels.</p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
 
     with tab1:
