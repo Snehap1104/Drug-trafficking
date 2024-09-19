@@ -410,13 +410,6 @@ def main():
             - If the model frequently misclassifies certain types of messages, it might need further training or refinement.
             """)
 
-    # Footer
-    st.sidebar.markdown("---")
-    st.sidebar.info("""
-    **Note:** This demo app showcases how to use machine learning to detect and analyze suspicious activities related to drug trafficking on messaging platforms using synthetic data. 
-    
-    In a real-world scenario, such tools must be used responsibly, with proper legal authorization, and with careful consideration of privacy rights and potential biases in the AI system.
-    """)
 
 if __name__ == "__main__":
     main()
