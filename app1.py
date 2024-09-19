@@ -135,11 +135,26 @@ def main():
         
         col1, col2 = st.columns([1, 2])
      
+        with col1:
+            st.markdown(
+                f"""
+                <div style='background-color: #E6F3FF; padding: 20px; border-radius: 10px;'>
+                <h3 style='color: #0066CC;'>Quick Info</h3>
+                <p><strong>ID:</strong> 1674</p>
+                <p><strong>Organization:</strong> Narcotics Control Bureau (NCB)</p>
+                <p><strong>Department:</strong> Narcotics Control Bureau (NCB)</p>
+                <p><strong>Category:</strong> Software</p>
+                <p><strong>Theme:</strong> Blockchain & Cybersecurity</p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        
         with col2:
             st.markdown(
                 f"""
-                <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px; width: 80%; margin: 0 auto;'>
-                <h3 style='color: #CC6600; text-align: center;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
+                <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px;'>
+                <h3 style='color: #CC6600;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
                 <h4 style='color: #FF8C00;'>Background:</h4>
                 <p>Use of encrypted messaging/social media apps like Telegram, WhatsApp and Instagram for drug trafficking are on the rise. Channels operating on these platforms are blatantly being misused by drug traffickers for offering various narcotic drugs and psychotropic substances for sale.</p>
                 <h4 style='color: #FF8C00;'>Key Points:</h4>
