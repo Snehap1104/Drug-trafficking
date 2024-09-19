@@ -133,7 +133,7 @@ def main():
     with tab0:
         
         
-        col2 = st.columns([1])
+        col1,col2 = st.columns([1,2])
      
      
         with col2:
