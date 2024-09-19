@@ -134,27 +134,41 @@ def main():
         st.header("Problem Statement")
         
         col1, col2 = st.columns([1, 2])
-       
+        with col1:
+            st.markdown(
+                f"""
+                <div style='background-color: #E6F3FF; padding: 20px; border-radius: 10px;'>
+                <h3 style='color: #0066CC;'>Quick Info</h3>
+                <p><strong>ID:</strong> 1674</p>
+                <p><strong>Organization:</strong> Narcotics Control Bureau (NCB)</p>
+                <p><strong>Department:</strong> Narcotics Control Bureau (NCB)</p>
+                <p><strong>Category:</strong> Software</p>
+                <p><strong>Theme:</strong> Blockchain & Cybersecurity</p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        
         with col2:
-    st.markdown(
-        f"""
-        <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px; width: 80%; margin: 0 auto;'>
-        <h3 style='color: #CC6600; text-align: center;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
-        <h4 style='color: #FF8C00;'>Background:</h4>
-        <p>Use of encrypted messaging/social media apps like Telegram, WhatsApp and Instagram for drug trafficking are on the rise. Channels operating on these platforms are blatantly being misused by drug traffickers for offering various narcotic drugs and psychotropic substances for sale.</p>
-        <h4 style='color: #FF8C00;'>Key Points:</h4>
-        <ul>
-        <li>Drug traffickers create channels and handles to offer drugs for sale to subscribers.</li>
-        <li>Customized Telegram bots are used by some traffickers to sell drugs.</li>
-        <li>Majority of drugs offered are dangerous synthetic drugs like MDMA, LSD, Mephedrone etc.</li>
-        <li>These apps are also used for drug-related communication.</li>
-        </ul>
-        <h4 style='color: #FF8C00;'>Expected Solution:</h4>
-        <p>Development of a software solution to identify live channels/bots/handles offering drugs for sale in India, focusing on triangulating identifiable parameters like IP address, mobile number, email id etc. of the users behind these channels.</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+            st.markdown(
+                f"""
+                <div style='background-color: #FFF5E6; padding: 20px; border-radius: 10px;'>
+                <h3 style='color: #CC6600;'>Software solutions to identify users behind Telegram, WhatsApp and Instagram based drug trafficking</h3>
+                <h4 style='color: #FF8C00;'>Background:</h4>
+                <p>Use of encrypted messaging/social media apps like Telegram, WhatsApp and Instagram for drug trafficking are on the rise. Channels operating on these platforms are blatantly being misused by drug traffickers for offering various narcotic drugs and psychotropic substances for sale.</p>
+                <h4 style='color: #FF8C00;'>Key Points:</h4>
+                <ul>
+                <li>Drug traffickers create channels and handles to offer drugs for sale to subscribers.</li>
+                <li>Customized Telegram bots are used by some traffickers to sell drugs.</li>
+                <li>Majority of drugs offered are dangerous synthetic drugs like MDMA, LSD, Mephedrone etc.</li>
+                <li>These apps are also used for drug-related communication.</li>
+                </ul>
+                <h4 style='color: #FF8C00;'>Expected Solution:</h4>
+                <p>Development of a software solution to identify live channels/bots/handles offering drugs for sale in India, focusing on triangulating identifiable parameters like IP address, mobile number, email id etc. of the users behind these channels.</p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
     with tab1:
         st.header("Overview")
@@ -396,6 +410,13 @@ def main():
             - If the model frequently misclassifies certain types of messages, it might need further training or refinement.
             """)
 
+    # Footer
+    st.sidebar.markdown("---")
+    st.sidebar.info("""
+    **Note:** This demo app showcases how to use machine learning to detect and analyze suspicious activities related to drug trafficking on messaging platforms using synthetic data. 
+    
+    In a real-world scenario, such tools must be used responsibly, with proper legal authorization, and with careful consideration of privacy rights and potential biases in the AI system.
+    """)
 
 if __name__ == "__main__":
     main()
